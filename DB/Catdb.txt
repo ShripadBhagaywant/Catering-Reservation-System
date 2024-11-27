@@ -1,0 +1,11 @@
+//Print Reservation.
+String sql = "SELECT * FROM ca_rg";
+
+//Print Order.
+String sql = "SELECT * FROM ca_rs  "+sub_sql+" order by id desc";
+
+// create the database table for order and Order and use all attributs. 
+	String sql = "INSERT INTO ca_rs (name, email, phone, event, attendance, event_date, message) VALUES ('" + name + "', '" + email + "', '" + phone + "', '" + event + "', '" + attendance + "', '" + event_date + "', '" + message + "')";
+
+// create the database table for Reservation and use all attributs.
+		String sql = "INSERT INTO ca_rg (name, lname, address, phone, email) VALUES ('" + name + "', '" + lname + "', '" + address + "', '" + phone + "', '" + email + "')";
